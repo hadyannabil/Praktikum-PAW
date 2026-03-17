@@ -1,8 +1,7 @@
-/* Reset CSS dan Box Sizing sesuai teori */
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; /* Ukuran box sudah termasuk padding dan border */
+    box-sizing: border-box;
 }
 
 body {
@@ -24,7 +23,6 @@ body {
     gap: 60px;
 }
 
-/* --- Area Kiri (Informasi) --- */
 .left-panel {
     flex: 1;
     min-width: 300px;
@@ -96,7 +94,6 @@ body {
     line-height: 1.5;
 }
 
-/* --- Area Kanan (Form) --- */
 .right-panel {
     flex: 1;
     min-width: 350px;
@@ -214,7 +211,6 @@ body {
     color: #94a3b8;
 }
 
-/* Responsiveness dasar */
 @media (max-width: 768px) {
     .container {
         flex-direction: column;
