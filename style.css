@@ -146,7 +146,6 @@ body {
     border-radius: 6px;
     font-size: 14px;
     outline: none;
-    transition: border-color 0.3s;
 }
 
 .input-group input:focus {
@@ -197,7 +196,6 @@ body {
     font-weight: bold;
     font-size: 15px;
     cursor: pointer;
-    transition: background-color 0.3s;
 }
 
 .btn-primary:hover {
