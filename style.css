@@ -208,12 +208,3 @@ body {
     font-size: 14px;
     color: #94a3b8;
 }
-
-@media (max-width: 768px) {
-    .container {
-        flex-direction: column;
-    }
-    .right-panel {
-        justify-content: center;
-    }
-}
